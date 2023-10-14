@@ -1,0 +1,18 @@
+# Manual Oxdex Staking 
+type ManualOxdexStaking @entity {
+  id: ID!
+
+  # stake amount
+  stakeAmount: BigInt!
+}
+
+# Manual Oxdex Staking 
+type AutoOxdexStaking @entity {
+  id: ID!
+
+  # share amount
+  shareAmount: BigInt!
+  
+  # stake amount
+  stakeAmount: BigInt!
+}

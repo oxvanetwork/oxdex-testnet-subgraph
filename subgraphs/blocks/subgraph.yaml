@@ -1,0 +1,25 @@
+specVersion: 0.0.2
+description: Next-Gen Blockchain Technology OxvaNetwork's Layer 1 & 2 PoS and PoW Synergy.
+repository: https://github.com/oxvanetwork
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: Migrations
+    network: mainnet
+    source:
+      address: '0x0000000000000000000000000000000000000000'
+      abi: Migrations
+      startBlock: 26980
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.4
+      language: wasm/assemblyscript
+      file: ./mappings/index.ts
+      entities:
+        - Block
+      abis:
+        - name: Migrations
+          file: ./abis/Migrations.json
+      blockHandlers:
+        - handler: handleBlock
