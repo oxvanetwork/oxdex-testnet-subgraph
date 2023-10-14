@@ -10,6 +10,6 @@
     "build": "graph build subgraph.yaml",
     "create-local": "graph create oxdex/exchange --node http://127.0.0.1:8020",
     "deploy-local": "graph deploy oxdex/exchange --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ oxdex/exchange subgraph.yaml"
+    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ oxvanetwork/oxdex-testnet-exchange subgraph.yaml"
   }
 }

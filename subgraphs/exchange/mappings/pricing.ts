@@ -22,10 +22,10 @@ let WHITELIST: string[] = [
   "0x79302701f4390Eb41Dd86eda7B96BaDd5366bc2E", // WOVA
   "0x802c3e839e4fdb10af583e3e759239ec7703501e", // ETH
   "0xF5dC99e620976C61Fea2e6525889E4eaFbB9401F", // USDC
-  "0xb9ae03e3320235d3a8ae537f87ff8529b445b590", // FilDA
+  "0xb9ae03e3320235d3a8ae537f87ff8529b445b590", // 
   "0xa4E35E88a8b9739E37d62312E12F8aB6EEb5FFEA", // OXDEX
-  "0xeceefc50f9aacf0795586ed90a8b9e24f55ce3f3", // HT
-  "0xf9ca2ea3b1024c0db31adb224b407441becc18bb"  // HUSD
+  "0xeceefc50f9aacf0795586ed90a8b9e24f55ce3f3", // 
+  "0xf9ca2ea3b1024c0db31adb224b407441becc18bb"  // 
 ];
 
 // minimum liquidity for price to get tracked
